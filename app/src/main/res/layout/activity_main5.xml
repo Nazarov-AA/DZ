@@ -7,10 +7,9 @@
     tools:context=".MainActivity5">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/cat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/cats"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="116dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
