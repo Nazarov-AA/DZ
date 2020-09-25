@@ -15,7 +15,7 @@ class MainActivity2 : AppCompatActivity() {
             val url = editText.text.toString()
 
             if (url.isNotEmpty()) {
-                Picasso.get().load(url).into(imageView)
+                Picasso.get().load(url).into(imageView) //comment
             }
         }
     }
