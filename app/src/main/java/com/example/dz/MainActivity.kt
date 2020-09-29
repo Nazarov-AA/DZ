@@ -15,6 +15,12 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this,MainActivity2::class.java)
             startActivity(myIntent)
         }
+
+        button2.setOnClickListener {
+            val myIntent2 = Intent(this,MainActivity3::class.java)
+            startActivity(myIntent2)
+        }
+
     }
 
     override fun onStart() {
