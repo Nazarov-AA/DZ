@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="#BEEBF1">
+
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Минская область"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Картофель" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Капуста" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Свекла" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView2_0"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Брестская область"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Картофель" />
+
+        <TextView
+            android:id="@+id/textView2_4"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView2_2"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Капуста" />
+
+        <TextView
+            android:id="@+id/textView2_5"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView2_3"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Свекла" />
+
+        <TextView
+            android:id="@+id/textView2_6"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView3_0"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Могилевская область"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textView3_1"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Картофель" />
+
+        <TextView
+            android:id="@+id/textView3_4"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView3_2"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Капуста" />
+
+        <TextView
+            android:id="@+id/textView3_5"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView3_3"
+            android:layout_margin="4dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Свекла" />
+
+        <TextView
+            android:id="@+id/textView3_6"
+            android:layout_margin="4dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO" />
+
+        <TextView
+            android:id="@+id/textView007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
