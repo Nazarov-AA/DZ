@@ -8,179 +8,182 @@
 
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="16dp"
-        android:background="#BEEBF1">
+        android:background="#BEEBF1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <TextView
             android:id="@+id/textView0"
-            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Минская область"
-            android:gravity="center_horizontal" />
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:text="Минская область" />
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Картофель" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Капуста" />
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Свекла" />
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
 
         <TextView
             android:id="@+id/textView2_0"
-            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Брестская область"
-            android:gravity="center_horizontal" />
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:text="Брестская область" />
 
         <TextView
             android:id="@+id/textView2_1"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Картофель" />
 
         <TextView
             android:id="@+id/textView2_4"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
         <TextView
             android:id="@+id/textView2_2"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Капуста" />
 
         <TextView
             android:id="@+id/textView2_5"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
 
         <TextView
             android:id="@+id/textView2_3"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Свекла" />
 
         <TextView
             android:id="@+id/textView2_6"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
 
         <TextView
             android:id="@+id/textView3_0"
-            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Могилевская область"
-            android:gravity="center_horizontal"/>
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:text="Могилевская область" />
 
         <TextView
             android:id="@+id/textView3_1"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Картофель" />
 
         <TextView
             android:id="@+id/textView3_4"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
         <TextView
             android:id="@+id/textView3_2"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Капуста" />
 
         <TextView
             android:id="@+id/textView3_5"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
 
         <TextView
             android:id="@+id/textView3_3"
-            android:layout_margin="4dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="Свекла" />
 
         <TextView
             android:id="@+id/textView3_6"
-            android:layout_margin="4dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
             android:text="" />
 
         <Button
             android:id="@+id/buttonGo"
-            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="GO" />
 
         <TextView
             android:id="@+id/textView007"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:text=" " />
 
     </LinearLayout>
