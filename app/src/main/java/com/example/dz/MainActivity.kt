@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
 
-            val myIntent = Intent(this,MainActivity2::class.java)
+            val myIntent = Intent(this,MainActivityCoffee::class.java)
             startActivity(myIntent)
         }
 
