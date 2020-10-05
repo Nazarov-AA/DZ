@@ -25,13 +25,14 @@ class FragmentSort1: Fragment() {
 
 
 
-        if (instance.coffees.isNotEmpty()){
-            nameValue01.text = instance.coffees[0].name
-            coastValue01.text = instance.coffees[0].cost.toString()
-            if (instance.coffees[0].url.isNotEmpty()) {
-                Picasso.get().load(instance.coffees[0].url).into(imageView01)
-            }
-        }
+        if (instance.coffees.size >= 1 && !instance.coffees[0].name.isNullOrEmpty()
+            && !instance.coffees[0].cost.isNullOrEmpty()
+            && !instance.coffees[0].url.isNullOrEmpty()){
+
+            nameValue01.text = "Название: "+instance.coffees[0].name
+            coastValue01.text = "Цена: " + instance.coffees[0].cost
+            Picasso.get().load(instance.coffees[0].url).into(imageView01)
+        }else Picasso.get().load("https://i.ytimg.com/vi/UJ8Zge_3Nqs/maxresdefault.jpg").into(imageView01)
     }
 
 

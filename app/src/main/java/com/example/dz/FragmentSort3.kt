@@ -23,13 +23,22 @@ class FragmentSort3: Fragment() {
         super.onActivityCreated(savedInstanceState)
 
 
-        if (ListCoffee.instance.coffees.isNotEmpty()){
-            nameValue01.text = ListCoffee.instance.coffees[2].name
-            coastValue01.text = ListCoffee.instance.coffees[2].cost.toString()
-            if (ListCoffee.instance.coffees[2].url.isNotEmpty()) {
-                Picasso.get().load(ListCoffee.instance.coffees[2].url).into(imageView01)
-            }
-        }
+        if (ListCoffee.instance.coffees.size >= 3 && !ListCoffee.instance.coffees[2].name.isNullOrEmpty()
+            && !ListCoffee.instance.coffees[2].cost.isNullOrEmpty()
+            && !ListCoffee.instance.coffees[2].url.isNullOrEmpty()){
+
+            nameValue01.text = "Название: " + ListCoffee.instance.coffees[2].name
+            coastValue01.text = "Цена: " + ListCoffee.instance.coffees[2].cost
+            Picasso.get().load(ListCoffee.instance.coffees[2].url).into(imageView01)
+        }else Picasso.get().load("https://i.ytimg.com/vi/UJ8Zge_3Nqs/maxresdefault.jpg").into(imageView01)
+
+//        if (ListCoffee.instance.coffees.isNotEmpty()){
+//            nameValue01.text = ListCoffee.instance.coffees[2].name
+//            coastValue01.text = ListCoffee.instance.coffees[2].cost.toString()
+//            if (ListCoffee.instance.coffees[2].url.isNotEmpty()) {
+//                Picasso.get().load(ListCoffee.instance.coffees[2].url).into(imageView01)
+//            }
+//        }
     }
 
 
