@@ -41,6 +41,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+        buttonDZ6.setOnClickListener {
+
+            val myIntent = Intent(this,Dz_6Activity::class.java)
+            startActivity(myIntent)
+        }
+
 
     }
 
