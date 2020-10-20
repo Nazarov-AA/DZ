@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AfterRegistrationActivity"></activity>
+        <activity android:name=".Dz_6Activity"></activity>
+        <activity android:name=".CongratulationActivity" />
+        <activity android:name=".AfterRegistrationActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivityCoffee" />
         <activity android:name=".MainActivity6" />
