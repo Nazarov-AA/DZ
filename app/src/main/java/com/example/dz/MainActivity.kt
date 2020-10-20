@@ -41,6 +41,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+        button9.setOnClickListener {
+
+            val myIntent = Intent(this,AddProductActivity::class.java)
+            startActivity(myIntent)
+        }
+
 
     }
 
