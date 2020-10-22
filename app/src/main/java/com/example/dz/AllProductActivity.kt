@@ -23,10 +23,10 @@ class AllProductActivity : AppCompatActivity() {
 
                 launchIo {
             launchForResult {
-                val result: List<Product> = db.getAllProduct()
+                var result: List<Product> = db.getAllProduct()
 
                 launchUi {
-                    val adapter = ProductAdapter(db.getAllProduct())
+                    val adapter = ProductAdapter(result)
                     productRecycler.adapter = adapter
                 }
             }
