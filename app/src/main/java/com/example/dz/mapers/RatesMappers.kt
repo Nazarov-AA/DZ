@@ -12,20 +12,9 @@ class RatesMappers {
             id = from.id ?: 0,
             name = from.name.orEmpty(),
             price = from.quote?.uSD?.price ?: 0.0,
-            percentChange1h = from.quote?.uSD?.percentChange1h ?: 0.0
+            percentChange24h = from.quote?.uSD?.percentChange24h ?: 0.0
         )
     }
-
-//    fun mapData(from: Json.DataResponse): Data {
-//
-//        return Rates(
-//            id = from.data
-//            name = from.name,
-//            price = from.quote?.uSD?.price,
-//            percentChange1h = from.quote?.uSD?.percentChange1h
-//        )
-//    }
-
 
 
 }

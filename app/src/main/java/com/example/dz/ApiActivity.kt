@@ -1,8 +1,10 @@
 package com.example.dz
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.dz.adapter.CryptoAdapter
 import com.example.dz.dto.Json
 import com.example.dz.mapers.RatesMappers
 import com.example.dz.retrofit.RetrofitFactory
@@ -19,7 +21,7 @@ class ApiActivity : AppCompatActivity() {
 
 
         val retrofit = RetrofitFactory().getRetrofit()
-
+        //val cryptoAdapter = CryptoAdapter()
         button_get.setOnClickListener{
             CoroutineScope(Dispatchers.IO).launch {
 
@@ -36,11 +38,14 @@ class ApiActivity : AppCompatActivity() {
 
                     withContext(Dispatchers.Main){                        //main поток что бы работать с UI
                         text_rates.text = rates.toString()
+                        //cryptoAdapter.updateList(rates)
                     }
                 }else{
                     Toast.makeText(this@ApiActivity,"ERROR", Toast.LENGTH_SHORT).show()
                 }
 
+                val myIntent = Intent(this@ApiActivity, AllCryptocurrenciesActivity::class.java)
+                startActivity(myIntent)
 
             }
         }

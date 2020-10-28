@@ -5,7 +5,12 @@ data class Rates (
     var id: Long,
     var name: String,
     var price: Double,
-    var percentChange1h: Double
+    var percentChange24h: Double
 
 
 )
+
+//object cryptoSet{
+//
+//    fun getCrypto() = listOf<Rates>()
+//}
