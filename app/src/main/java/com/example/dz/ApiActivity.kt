@@ -21,7 +21,7 @@ class ApiActivity : AppCompatActivity() {
 
 
         val retrofit = RetrofitFactory().getRetrofit()
-        //val cryptoAdapter = CryptoAdapter()
+
         button_get.setOnClickListener{
             CoroutineScope(Dispatchers.IO).launch {
 
@@ -33,12 +33,10 @@ class ApiActivity : AppCompatActivity() {
                     val rates = ratesResponse?.map {
 
                             RatesMappers().map(it)
-
                     }
 
                     withContext(Dispatchers.Main){                        //main поток что бы работать с UI
                         text_rates.text = rates.toString()
-                        //cryptoAdapter.updateList(rates)
                     }
                 }else{
                     Toast.makeText(this@ApiActivity,"ERROR", Toast.LENGTH_SHORT).show()

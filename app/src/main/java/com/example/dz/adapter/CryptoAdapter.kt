@@ -15,8 +15,6 @@ import kotlinx.android.synthetic.main.item_crypto.view.*
 private val URL_IMG = "https://s2.coinmarketcap.com/static/img/coins/64x64/"
 
 
-
-//class CryptoAdapter(private var cryptoSet : List<Rates>):
 class CryptoAdapter():
         RecyclerView.Adapter<CryptoAdapter.CryptoViewHolder>(){
 

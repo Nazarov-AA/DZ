@@ -10,8 +10,5 @@ import retrofit2.http.Query
 interface CoinMarketCapApi {
 
     @GET("v1/cryptocurrency/listings/latest")
-    fun getRates(
-//        @Query("periodicity")
-//        periodicity: Int
-    ) : Deferred<retrofit2.Response<Json>>
+    fun getRates() : Deferred<retrofit2.Response<Json>>
 }
