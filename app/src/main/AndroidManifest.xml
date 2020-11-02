@@ -12,10 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".AllCryptocurrenciesActivity"></activity>
+        <activity android:name=".Dz_6Activity" />
+
+
         <activity android:name=".AllProductActivity"></activity>
         <activity android:name=".AddProductActivity" />
 
-        <activity android:name=".Dz_6Activity"></activity>
+        //<activity android:name=".Dz_6Activity"></activity>
+
         <activity android:name=".CongratulationActivity" />
 
         <activity android:name=".AfterRegistrationActivity" />
@@ -33,6 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ApiActivity" />
     </application>
 
 </manifest>
