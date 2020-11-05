@@ -3,6 +3,7 @@
     package="com.example.dz">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
         android:allowBackup="true"
@@ -11,18 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".AllCryptocurrenciesActivity"></activity>
+        <activity android:name=".ChronometerActivity"></activity>
+        <activity android:name=".AllCryptocurrenciesActivity" />
         <activity android:name=".Dz_6Activity" />
-
-
-        <activity android:name=".AllProductActivity"></activity>
-        <activity android:name=".AddProductActivity" />
-
-        //<activity android:name=".Dz_6Activity"></activity>
-
+        <activity android:name=".AllProductActivity" />
+        <activity android:name=".AddProductActivity" /> <!-- <activity android:name=".Dz_6Activity"></activity> -->
         <activity android:name=".CongratulationActivity" />
-
         <activity android:name=".AfterRegistrationActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivityCoffee" />
