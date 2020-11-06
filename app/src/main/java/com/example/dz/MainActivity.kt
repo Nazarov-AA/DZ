@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
         button9.setOnClickListener {
 
             val myIntent = Intent(this, AddProductActivity::class.java)
+            startActivity(myIntent)
+        }
 
             buttonDZ6.setOnClickListener {
 
@@ -68,4 +70,3 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
-}
