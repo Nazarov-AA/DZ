@@ -15,51 +15,58 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
 
-            val myIntent = Intent(this,MainActivity2::class.java)
+            val myIntent = Intent(this, MainActivity2::class.java)
             startActivity(myIntent)
         }
 
         button2.setOnClickListener {
-            val myIntent2 = Intent(this,MainActivity3::class.java)
+            val myIntent2 = Intent(this, MainActivity3::class.java)
             startActivity(myIntent2)
         }
 
         button3.setOnClickListener {
-            val myIntent3 = Intent(this,MainActivity6::class.java)
+            val myIntent3 = Intent(this, MainActivity6::class.java)
             startActivity(myIntent3)
         }
 
         button6.setOnClickListener {
 
-            val myIntent = Intent(this,MainActivityCoffee::class.java)
+            val myIntent = Intent(this, MainActivityCoffee::class.java)
             startActivity(myIntent)
         }
 
         button7.setOnClickListener {
 
-            val myIntent = Intent(this,RegistrationActivity::class.java)
+            val myIntent = Intent(this, RegistrationActivity::class.java)
             startActivity(myIntent)
         }
 
 
         button9.setOnClickListener {
 
-            val myIntent = Intent(this,AddProductActivity::class.java)
-
-        buttonDZ6.setOnClickListener {
-
-            val myIntent = Intent(this,Dz_6Activity::class.java)
-
+            val myIntent = Intent(this, AddProductActivity::class.java)
             startActivity(myIntent)
         }
 
-        button10.setOnClickListener {
+            buttonDZ6.setOnClickListener {
 
-            val myIntent = Intent(this,ApiActivity::class.java)
-            startActivity(myIntent)
+                val myIntent = Intent(this, Dz_6Activity::class.java)
+
+                startActivity(myIntent)
+            }
+
+            button10.setOnClickListener {
+
+                val myIntent = Intent(this, ApiActivity::class.java)
+                startActivity(myIntent)
+            }
+
+            button11.setOnClickListener {
+
+                val myIntent = Intent(this, ChronometerActivity::class.java)
+                startActivity(myIntent)
+            }
+
+
         }
-
-
     }
-
-}
