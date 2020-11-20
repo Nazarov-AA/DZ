@@ -3,7 +3,7 @@
     package="com.example.dz">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:name=".App"
@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TestActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChronometerActivity"/>
+        <activity android:name=".ChronometerActivity" />
         <activity android:name=".AllCryptocurrenciesActivity" />
         <activity android:name=".Dz_6Activity" />
         <activity android:name=".AllProductActivity" />
@@ -36,7 +37,7 @@
         <activity android:name=".MainActivity2" />
         <activity android:name=".ApiActivity" />
 
-        <service android:name=".MyForegroundService"/>
+        <service android:name=".MyForegroundService" />
     </application>
 
 </manifest>

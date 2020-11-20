@@ -138,6 +138,39 @@
         app:layout_constraintStart_toEndOf="@+id/buttonDZ_11"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
 
+    <Button
+        android:id="@+id/buttonDZ_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="DZ_13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDZ_10" />
+
+    <Button
+        android:id="@+id/buttonDZ_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:text="DZ_14"
+        app:layout_constraintStart_toEndOf="@+id/buttonDZ_13"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDZ_11" />
+
+    <Button
+        android:id="@+id/buttonDZ_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:text="DZ_15"
+        app:layout_constraintStart_toEndOf="@+id/buttonDZ_14"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDZ_12" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
