@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SensorLight"></activity>
         <activity android:name=".ChronometerActivity"/>
         <activity android:name=".AllCryptocurrenciesActivity" />
         <activity android:name=".Dz_6Activity" />
         <activity android:name=".AllProductActivity" />
         <activity android:name=".AddProductActivity" /> <!-- <activity android:name=".Dz_6Activity"></activity> -->
+
         <activity android:name=".CongratulationActivity" />
         <activity android:name=".AfterRegistrationActivity" />
         <activity android:name=".RegistrationActivity" />
