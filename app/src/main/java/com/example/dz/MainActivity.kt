@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(myIntent)
             }
 
+
             buttonDZ_11.setOnClickListener {
 
                 val myIntent = Intent(this, SensorLight::class.java)
@@ -68,7 +69,16 @@ class MainActivity : AppCompatActivity() {
             }
 
 
+            button11.setOnClickListener {
+
+                val myIntent = Intent(this, ChronometerActivity::class.java)
+                startActivity(myIntent)
+            }
 
 
+
+
+
+        }
     }
-}
+
